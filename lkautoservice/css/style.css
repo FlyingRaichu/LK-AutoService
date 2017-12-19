@@ -1,0 +1,372 @@
+	html, body {
+		margin: 0 auto;
+		text-align: center;
+		min-height: 100vh;
+	}
+	body {
+		position: relative;
+		padding-bottom: 80px;
+	}
+
+	.bigtext {
+		font-size: 150%;
+	}
+
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+	.headpic {
+		background: url("../img/head_pic.jpg");
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 1;
+		text-align: center;
+		background-size: cover;
+		background-position: center center;
+		height: 500px;
+	}
+
+	ul.nav.navbar-nav {
+		float: right;
+	}
+	.nav {
+		height: 60px;
+		padding-top: 20px;
+	}
+
+	.navbar-inverse .navbar-nav>li>a {
+		color: #FF2800;
+		border: 2px solid;
+		border-color: #FF2800;
+		width: 120px;
+	}
+	.navbar-inverse .navbar-nav>.active>a {
+		color: black;
+		background-color: #FF2800;
+	}
+	.navbar-inverse .navbar-nav>li>a:hover {
+		color:  #00AEEF;
+		background-color: black;
+		border: 2px solid #00AEEF;
+		-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+	}
+
+	.navbar-nav>li {
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.navbar {
+		border: none;
+		border-radius:0px;
+		height: 80px;
+	}
+
+	.navbar-inverse {
+		border: none;
+		border-radius:0px;
+	}
+
+	.head-cont {
+		height: 80px;
+	}
+
+	.message {
+     width: 50%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+     resize: vertical;
+}
+
+li:hover {
+	border-color: #00AEEF;
+	-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+}
+
+.message-field {
+	margin-top: 25px;
+}
+
+.footer {
+	position: absolute;
+    width:100%;
+    height:60px;
+    background-color: black;
+    color: #FF2800;
+    bottom: 0;
+}
+
+img.resize {
+    width:20%;
+    height: auto;
+    float: none;
+}
+
+.service {
+	text-align: center;
+}
+
+.header-img {
+	height: 100px;
+	width: 100%;
+}
+
+.navbar-inverse {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	float: left;
+	height: 80px;
+	padding: inherit;
+}
+
+.facebook-logo {
+	height: 30px;
+}
+
+ol {
+	text-align: initial;
+}
+
+
+	html, body {
+		margin: 0 auto;
+		text-align: center;
+		min-height: 100vh;
+	}
+
+	body {
+		position: relative;
+		padding-bottom: 80px;
+	}
+
+	ul.nav.navbar-nav {
+		float: right;
+	}
+
+	.navbar-inverse .navbar-nav>a {
+		color: #FF2800; DOESNT FUCKING WORK
+	}
+
+	}
+
+	.message {
+		width: 50%;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		resize: vertical;
+	}
+
+	li:hover {
+		border-color: #00AEEF;
+		-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+	}
+
+	.message-field {
+		margin-top: 25px;
+	}
+
+	.footer {
+		width:100%;
+		height:60px;
+		background-color: black;
+		color: #FF2800;
+	}
+
+	img.resize {
+		width:10%;
+		height: auto;
+		float: none;
+	}
+
+	.service {
+		text-align: center;
+	}
+
+	.header-img {
+		height: 100px;
+		width: 100%;
+	}
+
+	.navbar-inverse {
+		margin-bottom: 0;
+	}
+
+	.navbar-brand {
+		object-fit: inherit;
+	}
+
+	.facebook-logo {
+		height: 30px;
+	}
+
+	ol {
+		text-align: initial;
+	}
+
+	#map {
+		float: left;
+		margin-left: -150px;
+		width: 700px;
+		height: 700px;
+	}
+
+	#heading {
+		color: #FF2800;
+		margin-bottom: 40px;
+	}
+
+
+	.nameemail {
+		border: 2px solid black;
+		width: 500px;
+		font-size: 25px;
+	}
+
+	#contact_form {
+		float: left;
+		margin-left: 40px;
+	}
+
+	.contact_titles {
+		font-size: 25px;
+	}
+
+	#namemessage {
+		border: 2px solid black;
+		width: 500px;
+		font-size: 25px;
+		height: 391px;
+	}
+
+	#submitbuttoncontact {
+		background-color: #000000;
+		border: none;
+		color: #FF2800;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		margin-top: 30px;
+	}
+
+	#submitbuttoncontact:hover {
+		color: #00AEEF;
+		-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+	}
+
+	@media screen and (max-width: 1230px) {
+		#map {
+			width: 80%;
+			height: 450px;
+			float: none;
+			margin: 0 auto;
+		}
+
+		.nameemail {
+			width: 70%;
+		}
+		#contact_form {
+			margin: 0 auto;
+			float: none;
+		}
+
+
+		#namemessage {
+			width: 100%;
+		}
+
+		.advpic {
+			width: 70%;
+
+		}
+
+
+		#mechanics {
+			width: 50%;
+			float: none;
+		}
+
+		#mechanics2 {
+			width: 50%;
+			float: none;
+		}
+	}
+
+	.advpic {
+		width: 25%;
+
+	}
+
+	.advh {
+		font-size: 200%;
+		font-weight: bold;
+	}
+
+
+	#advh2 {
+		font-size: 300%;
+	}
+
+	#advh3 {
+		font-size: 300%;
+		margin-top: 40px;
+	}
+
+
+	#mechanics {
+		width: 50%;
+		margin-left: 50px;
+		float: right;
+	}
+
+	#mechanics2 {
+		width: 50%;
+		margin-left: 50px;
+		float: none;
+		margin-bottom: 60px;
+	}
+
+	#aboutp {
+		font-size: 150%;
+	}
+
+	#facebookicon {
+		margin-top: 5px;
+	}
+
+	#OR {
+		font-size: 500%;
+		color: #FF2800;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	#problem {
+		margin-bottom: 80px;
+	}
