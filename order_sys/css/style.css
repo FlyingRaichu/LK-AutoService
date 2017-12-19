@@ -1,0 +1,60 @@
+.dash-box {
+    height: 150px;
+    text-align: center;
+}
+
+.dash-com {
+background-color: white;
+    border-bottom: 10px solid;
+    border-bottom-color: #76FF03;
+}
+
+.dash-ny {
+background-color: white;
+    border-bottom: 10px solid;
+    border-bottom-color: #2196F3;
+}
+
+.dash-dec {
+background-color: white;
+    border-bottom: 10px solid;
+    border-bottom-color: #F44336;
+}
+
+.dash-pr {
+background-color: white;
+    border-bottom: 10px solid;
+    border-bottom-color: #FFEB3B;
+}
+
+.menu {
+   height: 100vh;
+    background-color: #212121;
+    color: white;
+}
+
+.dashboard {
+
+}
+
+ol, ul {
+    list-style-type: none;
+    padding: inherit;
+
+}
+
+li a{
+    color: white;
+}
+li a:active{
+    color: #FF2800;
+}
+
+li a:hover{
+    color: #00AEEF;
+}
+
+.page-list {
+    text-align: center;
+    font-size: 24px;
+}
